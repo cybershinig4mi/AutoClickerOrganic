@@ -2,6 +2,7 @@ import time
 import threading
 import win32api
 import win32con
+
 monke = int(input('input length of autoclicker: '))
 def autoclick():
     
