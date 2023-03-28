@@ -5,7 +5,8 @@ import win32con
 
 def autoclick():
     
-    delay = 0.5
+    monke = int(input('input length of autoclicker: '))
+    delay = 0.02
 
    
     while not stop_flag:
@@ -23,7 +24,7 @@ stop_flag = False
 threading.Thread(target=autoclick).start()
 
 
-input("Press Enter to start/stop the autoclicker: ")
+time.sleep(monke)
 
 
 stop_flag = not stop_flag
